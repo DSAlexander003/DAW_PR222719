@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #191919;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+    background: #C84B31;
+    color: #fff;
+    padding: 6px 0;
+    text-align: center;
+}
+
+.menu
+{  
+	overflow:hidden;  
+	width: 100%;  
+}  
+
+.menu li a
+{
+    background-color: #b9b9b9;
+    -moz-border-radius: 400px;  
+	-webkit-border-radius: 400px;
+    -o-border-radius: 50%; 
+    -ms-border-radius: 50%; 
+    border-radius: 50%; 
+    color: #C84B31;  
+	display:inline-block;  
+	height:100px;  
+	margin-right:5px; 
+	margin: 0;  
+	text-align: center;  
+	text-decoration: none;  
+	width:100px; 	  
+}
+
+.menu a span
+{  
+	position:relative;  
+	top:40%;  
+}
+
+.menu a:hover
+{  
+	background: #2D4263;  
+}
+
+.menu li
+{  
+	display: inline;  
+	margin: 0;  
+}
+
+.menu li a:visited
+{  
+	color: #C84B31;  
+}
+
+.menu ul
+{   
+	list-style-type: none;  
+	margin: 36px auto;  
+	padding: 0;  
+	text-align: center;
+}
+
+.menu ul li {
+    margin: 0 12px;
+}
+
+p
+{
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width: 30%;
+    height: 30px;
+    background-color: #2D4263;
+    color: #b9b9b9;
+}
