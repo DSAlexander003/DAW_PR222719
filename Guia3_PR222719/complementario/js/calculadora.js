@@ -103,6 +103,13 @@ function retro(){
     pantalla.innerHTML=x;          
 }
 
+function potencia(){
+    x2 = number(x);
+    x2 = Math.pow(x,2);
+    pantalla.innerHTML = x;
+    xi = 1;
+}
+
 function borradoParcial(){
     pantalla.innerHTML=0;
     x = 0;
