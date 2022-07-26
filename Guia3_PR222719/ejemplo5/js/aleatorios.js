@@ -34,4 +34,14 @@ function aleatorio(minimo, maximo, cantidad){
     //Generando un numero aleatorio teniendo el cuidado
     // que esté comprendido entre los valores mínimo y máximo
     var numero = Math.floor(Math.random() * (maximo - minimo + 1)) + minimo;
+    //Verificar que no se haya llegado a la cantidad
+    //de números aleatorios máximo establecidos
+    if(aleatorios.length < cantidad){
+    //Agregar el número aleatorio al arreglo o matriz
+    //utilizando el método push()
+    aleatorios.push(numero);
+    //Invocar recursivamente a la función aleatorio
+    aleatorio(minimo, maximo, cantidad);
+    }
 }
+window.onload = init;
