@@ -105,7 +105,7 @@ function retro(){
 
 function potencia(){
     x2 = Number(x);
-    x2 = Math.pow(x,2);
+    x2 = Math.pow(x, x);
     pantalla.innerHTML = x;
     xi = 1;
 }
